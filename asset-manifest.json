@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/baitapbuoi2/static/css/main.0a9bb214.css",
+    "main.js": "/baitapbuoi2/static/js/main.edd3f10a.js",
+    "index.html": "/baitapbuoi2/index.html",
+    "main.0a9bb214.css.map": "/baitapbuoi2/static/css/main.0a9bb214.css.map",
+    "main.edd3f10a.js.map": "/baitapbuoi2/static/js/main.edd3f10a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a9bb214.css",
+    "static/js/main.edd3f10a.js"
+  ]
+}
