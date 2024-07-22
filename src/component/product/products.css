@@ -1,0 +1,93 @@
+.slide{
+    margin-top: 100px;
+}
+
+.slide .headline-tour {
+    text-align: center;
+}
+
+.slide .headline-tour h3 {
+    color: #44d7b6;
+    font-size: 24px;
+}
+
+.slide .headline-tour h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+.slide ul{
+    display: flex;
+    list-style: none;
+    margin-left: 350px;
+}
+
+.slide li {
+    margin: 20px;
+    transition: 1s;
+}
+
+
+.slide .card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.slide .btn {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;    
+    border-radius: 5px;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+}
+
+.slide .btn.active {
+    background-color: #44d7b6;
+    color: #fff;
+}
+
+.slide .card {
+    position: relative;
+}
+
+.slide .card::before {
+    content: "12 off";
+    color: #fff;
+    background-color: #DC3545;
+    font-size: 16px;
+    padding: 4px 8px;
+    margin: 8px 0 8px 8px;
+    border-radius: 5px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.card .card-body .category {
+    font-size: 16px;
+    color: #969ba1;
+}
+
+.card .card-body .title {
+    font-size: 20px;
+    color: #002248!important;
+    margin-bottom: 16px;
+}
+
+.card .card-body .text-muted {
+    color: #212529;
+}
+
+.card .card-body .text-muted .span1 {
+    font-size: 16px;
+    color: #44d7b6!important;
+}
+
+.card .card-body .text-muted .span2 {
+    font-size: 12.8px;
+    color: #969ba1 !important;
+    text-decoration: line-through;
+}
+
+
