@@ -144,7 +144,7 @@ function Products() {
             <ul>
                 {
                     listCateTour.map((item) => (
-                        <li key={item.id}>
+                        <li key={item.id} data-aos="flip-left">
                             <Button className={(item.title===selectedCategory) ? "active": ""} 
                                 color="primary" 
                                 onClick={() => setSelectedCategory(item.title)}
@@ -156,7 +156,7 @@ function Products() {
                 }
             </ul>
 
-            <div className="tab-content">
+            <div className="tab-content" >
                 <Row>
                     {
                         filteredTours.map((item) => (

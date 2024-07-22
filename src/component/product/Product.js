@@ -2,8 +2,8 @@ import { Button, Card, CardBody, CardTitle, CardSubtitle, Container, Row, Col } 
 function Product(props) {
     const {pro} = props
     return (
-            <Col key={pro.id} lg={3} md={4} sm={6} xs={12} data-aos="flip-left">
-                <Card style={{ width: '18rem' }}>
+            <Col className="container column" key={pro.id} lg={3} md={6} sm={6} xs={12}>
+                <Card >
                     <img
                         alt={pro.title}
                         src={pro.img}

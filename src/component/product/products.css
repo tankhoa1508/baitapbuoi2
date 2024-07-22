@@ -18,7 +18,8 @@
 .slide ul{
     display: flex;
     list-style: none;
-    margin-left: 350px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .slide li {
@@ -88,6 +89,21 @@
     font-size: 12.8px;
     color: #969ba1 !important;
     text-decoration: line-through;
+}
+
+.column {
+    border-radius: 10px;
+}
+
+.slide img {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        margin-bottom: 30px;
+        width: 80%;
+    }
 }
 
 
