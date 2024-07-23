@@ -16,6 +16,13 @@ function Product(props) {
                         <CardSubtitle className="mb-2 text-muted" tag="h6">
                             From <span className="span1">${pro.price.toFixed(2)}</span> <span className="span2">$250.00</span>
                         </CardSubtitle>
+                        <div className="stars">
+                            <p className="star"><i class="fa-solid fa-star"></i></p>
+                            <p className="star"><i class="fa-solid fa-star"></i></p>
+                            <p className="star"><i class="fa-solid fa-star"></i></p>
+                            <p className="star"><i class="fa-solid fa-star"></i></p>
+                            <p><i class="fa-solid fa-star"></i></p>
+                        </div>
                     </CardBody>
                 </Card>
             </Col>

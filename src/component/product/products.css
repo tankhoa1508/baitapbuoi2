@@ -93,14 +93,27 @@
 
 .column {
     border-radius: 10px;
-    transition: 1s;
+    /* transition: 1s; */
     animation: show 2s alternate;
 
 }
 
+.stars {
+    display: flex;
+    margin-top: 10px;
+}
+
+.star {
+    color: #f6e58d;
+    margin: 0 3px;
+}
+
 @keyframes show {
+    0% {
+        transform: rotateY(-90deg);
+    }
     100% {
-        transform: rotateY(360deg);
+        transform: rotateY(0deg);
     }
 }
 
